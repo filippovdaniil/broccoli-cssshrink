@@ -1,0 +1,31 @@
+{
+  "name": "broccoli-cssshrink",
+  "version": "0.0.0",
+  "description": "broccoli wrapper for cssshrink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filippovdaniil/broccoli-cssshrink"
+  },
+  "keywords": [
+    "broccoli",
+    "cssshrink",
+    "minifier",
+    "css"
+  ],
+  "author": "Daniil Filippov <filippovdaniil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filippovdaniil/broccoli-cssshrink/issues"
+  },
+  "homepage": "https://github.com/filippovdaniil/broccoli-cssshrink",
+  "dependencies": {
+    "cssshrink": "0.0.5",
+    "broccoli-caching-writer": "~0.5.4",
+    "broccoli-kitchen-sink-helpers": "~0.2.6",
+    "mkdirp": "~0.5.0"
+  }
+}
